@@ -9,4 +9,9 @@ describe("Conversor de números romanos", () => {
         expect(convertir(2)).toBe("II");
     });
 
+    test("Convierte 5 a V", () => {
+        expect(convertir(5)).toBe("V");
+    });
+
+
 });
