@@ -1,5 +1,6 @@
 function convertir(num) {
     if (num === 5) return "V";
+    if (num > 5) return "V" + "I".repeat(num - 5);
     return "I".repeat(num);
 }
 

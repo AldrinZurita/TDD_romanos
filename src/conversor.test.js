@@ -13,5 +13,7 @@ describe("Conversor de números romanos", () => {
         expect(convertir(5)).toBe("V");
     });
 
-
+    test("Convierte 7 a VII", () => {
+        expect(convertir(7)).toBe("VII");
+    });
 });
