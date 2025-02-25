@@ -1,5 +1,5 @@
 function convertir(num) {
-    return "I";
+    return "I".repeat(num);
 }
 
 /*
