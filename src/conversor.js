@@ -1,3 +1,8 @@
+function convertir(num) {
+    return "I";
+}
+
+/*
 function convertir(num){
     const val = [
         1000, 900, 500, 400,
@@ -20,5 +25,5 @@ function convertir(num){
     }
     return romanNum;
 }
-
+*/
 export default convertir;
